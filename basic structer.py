@@ -6,11 +6,10 @@ def operations1(a,b,c,d):#hear we def function by using def keyword and name of 
     e=a*b #perfoming the multiplication operation
    # print("inside function:",f,e)
     return f,e
-k=operations1(a=int(input("enter a number")),
-b=int(input("enter a number")),
-c=int(input("enter a number")),d=int(input("enter a number")))#calling the function by passing the
+k=operations1(10,20,30,40)#calling the function by passing the
 #values of parameters called "arguments"
 q,e=k
 print(e,q)
-print(operations1.__doc__)
+print("discription:",operations1.__doc__)
+print("name of the function:",operations1.__name__)
 #print(operations1(2,1,3,4))
