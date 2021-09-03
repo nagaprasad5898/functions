@@ -1,3 +1,5 @@
+#calling the function by giving positional arguments
+#we want to provide the based on parameters provided
 def kanna(a,b):
     c=a+b
     print("printing inside the function 'c' value:",c)#if we dont use print to get the value of c use return
