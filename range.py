@@ -1,16 +1,13 @@
-def kanna(b,a=1,c=1):
-    """the sequenc must be in stop start and step"""
-    e=[]
-    if a!=0:
-        d=a
+def kanna(*a):
+    g=()
+    if len(a)==1:
+        c,d,e=0,1,0
+    elif len(a)==2:
+        c,d,e=a[0],1,1
     else:
-        d=0
-    while b>d :
-        if c==1:
-            e.append(d)
-            d=d+1
-        else:
-            e.append(d)
-            d=d+c
-    print(e)
-kanna(10,2,3)
+        c,d,e=a[0],a[2],1
+    while c<a[e]:
+        g+=(c,)
+        c+=d
+    return g
+print(kanna(1,10,2))
