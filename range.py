@@ -10,4 +10,5 @@ def kanna(*a):
         g+=(c,)
         c+=d
     return g
-print(kanna(1,10,2))
+a=kanna(2,11,2)
+print(list(a))
