@@ -30,14 +30,14 @@ print(dev(10,100))
 def dev1(a,b):
     return a/b
 print(dev1(10,3))
-'''
-def quit1(a):
-    for i in a:break
+"""
+def quit1():
+    breakpoint()
 
 def dev1(a,b):
-    quit1([1,2,3])
+    quit1()
     return a/b
 print(dev1(10,3))
-'''
+"""
 
 
