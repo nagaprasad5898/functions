@@ -7,6 +7,6 @@ def typesofparameters(a,b,c,/,d,f=2,*,e=10,g=58):
 typesofparameters(1,2,3,5)
 typesofparameters(1,2,4,d=5)
 typesofparameters(1,8,5,6,5)
-#typesofparameters(a=1,b=10,c=56,d=2,f=4,e=6,g=9)#typesofparameters()
+typesofparameters(1,2,8,d=2,f=4,e=6,g=9)#typesofparameters()
 # got some positional-only arguments passed as keyword arguments: 'a, b, c'
-typesofparameters(1,8,5,d=6,f=5,e=5,g=6)
+#typesofparameters(c=1,a=8,b=5,d=6,f=5,e=5,g=6)
