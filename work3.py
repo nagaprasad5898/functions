@@ -5,3 +5,4 @@ def palindrome(a):
         return False
 b=input("enter a string:")
 print(palindrome(b))
+kdhkagdhg
