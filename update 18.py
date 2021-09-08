@@ -5,7 +5,7 @@ def cal1(a,b,c):
     elif c=="-":
 
         return a-b
-    elif c=="*": `
+    elif c=="*":
 
         return a*b
 print(cal1(10,20,"*"))
