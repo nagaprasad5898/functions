@@ -1,6 +1,6 @@
 def a(b):
     c=""
-    for i in b.split():
+    for i in b.split( ):
         if i not in c:
             c+=i+' '
     d=c.split()

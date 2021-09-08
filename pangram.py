@@ -1,15 +1,20 @@
 def panagram(a):
-    b=' '
+    b=''
     c=0
     for i in a.lower():
-         if 96<=ord(i)<=122:
+         if ord("a")<=ord(i)<=ord("z"):
             if i not in b:
                 b+=i
                 c+=1
-                print(c)
-    print(b)
+         elif c==26:
+             return True
+
+    else:
+        return False
+'''                
     if c==26:
         return True
     else:
         return False
-print(panagram("the quick brown for jumps 456 over the  lazy dog x ") )
+'''
+print(panagram("the quick brown fox xkbwsgi jumps 456 over the  lazy dog  ") )
